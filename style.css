@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&family=Nunito:ital@1&family=Roboto+Mono:wght@200;300;400;500;700&display=swap');
+
+.body {
+  background-image: url('./Assets/feiticeira.jpg');
+  background-size: 100rem;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.desencoder-logo {
+  position: absolute;
+  width: 8rem;
+  right: 1rem;
+  top: 1rem;
+}
+
+.container {
+  margin: 1rem;
+ 
+}
+
+
+h1 {
+  font-size: 50px;
+}
+
+.main {
+display: flex;
+flex-direction: column;
+justify-content: center;
+position: absolute;
+top: 12rem;
+left: 5rem;
+width: 40%;
+margin: auto;
+padding: 2em;
+color: #FFFFFF;
+
+}
+
+
+.tableNotas {
+  padding: 0.1rem;
+  width: 30rem;
+}
+
+.button {
+color: #FFFFFF;
+margin-top: 1rem;
+border-radius: 2rem;
+padding: 5px;
+}
+
+input {
+  margin: 0.2rem;
+}

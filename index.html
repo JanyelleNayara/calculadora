@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet" >
+    <script src="funcao.js"></script>
+    <title>Calculadora de média</title>
+</head>
+
+<body class="body">
+    <header class="container">
+        <a href="https://desencoder.com.br/" target="_blank">
+            <img src="./Assets/logo-blank.svg" alt="" class="desencoder-logo">
+        </a>
+        <h1>Calculadora de média</h1>
+        <h3>Descubra aqui a média de suas notas!</h3>
+    </header>
+    
+    <main  class="main">
+               
+        <div>
+            <h2>Notas</h2>
+            <table  class="tableNotas" align="center" border="1">
+                <thead>
+                    <tr>
+                        <th>Primeiro Bimestre</th>
+                        <th>Segundo Bimestre</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td><input type="number" id="notaUm" placeholder="Primeiro bimestre" style="text-align: center"></td>
+                        <td><input type="number" id="notaDois" placeholder="Segundo bimestre" style="text-align: center"></td>
+                    </tr>
+                </tbody>
+                
+                <thead>
+                    <tr>
+                        <th>Terceiro Bimestre</th>
+                        <th>Quarto Bimestre</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>       
+                        <td><input type="number" id="notaTres" placeholder="Terceiro bimestre"style="text-align: center"></td>
+                        <td><input type="number" id="notaQuatro" placeholder="Quarto bimestre"style="text-align: center"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="button" >
+            <button type="submit" onclick="Calcular(); fun()"> Calcular</button>
+            <h2 id="calcular"></h2>
+        </div>
+    </main>
+    
+</body>
+</html>
